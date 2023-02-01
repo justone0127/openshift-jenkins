@@ -339,7 +339,7 @@ objects:
                   --param=HOSTNAME=$GOGS_HOSTNAME \
                   --param=SKIP_TLS_VERIFY=true
             else
-              oc new-app -f https://raw.githubusercontent.com/justone0127/gogs/main/gogs-template.yaml \
+              oc new-app -f https://raw.githubusercontent.com/justone0127/gogs/main/gogs-test-template.yaml \
                   --param=GOGS_VERSION=0.11.34 \
                   --param=HOSTNAME=$GOGS_HOSTNAME \
                   --param=SKIP_TLS_VERIFY=true
